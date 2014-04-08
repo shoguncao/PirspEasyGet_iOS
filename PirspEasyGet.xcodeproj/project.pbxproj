@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C369FE417F9708C0044FDDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C369FE317F9708C0044FDDA /* UIKit.framework */; };
+		1C369FE617F9708C0044FDDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C369FE517F9708C0044FDDA /* Foundation.framework */; };
+		1C369FE817F9708C0044FDDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C369FE717F9708C0044FDDA /* CoreGraphics.framework */; };
+		D3DA73F318F424AE00028951 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DA73ED18F424AE00028951 /* Default-568h@2x.png */; };
+		D3DA73F418F424AE00028951 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DA73EE18F424AE00028951 /* Default.png */; };
+		D3DA73F518F424AE00028951 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DA73EF18F424AE00028951 /* Default@2x.png */; };
+		D3DA73F618F424AE00028951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA73F018F424AE00028951 /* main.m */; };
+		D3DA740718F424DF00028951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA73FC18F424DF00028951 /* AppDelegate.m */; };
+		D3DA740818F424DF00028951 /* EGClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA73FE18F424DF00028951 /* EGClassifyViewController.m */; };
+		D3DA740918F424DF00028951 /* EGFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740018F424DF00028951 /* EGFriendViewController.m */; };
+		D3DA740A18F424DF00028951 /* EGRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740218F424DF00028951 /* EGRecommendViewController.m */; };
+		D3DA740B18F424DF00028951 /* EGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740418F424DF00028951 /* EGRootViewController.m */; };
+		D3DA740C18F424DF00028951 /* EGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740618F424DF00028951 /* EGSettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C369FE017F9708C0044FDDA /* PirspEasyGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirspEasyGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C369FE317F9708C0044FDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C369FE517F9708C0044FDDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C369FE717F9708C0044FDDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3DA73ED18F424AE00028951 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "PirspEasyGet/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		D3DA73EE18F424AE00028951 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = PirspEasyGet/Default.png; sourceTree = SOURCE_ROOT; };
+		D3DA73EF18F424AE00028951 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "PirspEasyGet/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		D3DA73F018F424AE00028951 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PirspEasyGet/main.m; sourceTree = SOURCE_ROOT; };
+		D3DA73F118F424AE00028951 /* PirspEasyGet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PirspEasyGet-Info.plist"; path = "PirspEasyGet/PirspEasyGet-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D3DA73F218F424AE00028951 /* PirspEasyGet-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PirspEasyGet-Prefix.pch"; path = "PirspEasyGet/PirspEasyGet-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D3DA73F918F424C900028951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = PirspEasyGet/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D3DA73FB18F424DF00028951 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PirspEasyGet/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D3DA73FC18F424DF00028951 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PirspEasyGet/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D3DA73FD18F424DF00028951 /* EGClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGClassifyViewController.h; path = PirspEasyGet/EGClassifyViewController.h; sourceTree = SOURCE_ROOT; };
+		D3DA73FE18F424DF00028951 /* EGClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGClassifyViewController.m; path = PirspEasyGet/EGClassifyViewController.m; sourceTree = SOURCE_ROOT; };
+		D3DA73FF18F424DF00028951 /* EGFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGFriendViewController.h; path = PirspEasyGet/EGFriendViewController.h; sourceTree = SOURCE_ROOT; };
+		D3DA740018F424DF00028951 /* EGFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGFriendViewController.m; path = PirspEasyGet/EGFriendViewController.m; sourceTree = SOURCE_ROOT; };
+		D3DA740118F424DF00028951 /* EGRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGRecommendViewController.h; path = PirspEasyGet/EGRecommendViewController.h; sourceTree = SOURCE_ROOT; };
+		D3DA740218F424DF00028951 /* EGRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGRecommendViewController.m; path = PirspEasyGet/EGRecommendViewController.m; sourceTree = SOURCE_ROOT; };
+		D3DA740318F424DF00028951 /* EGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGRootViewController.h; path = PirspEasyGet/EGRootViewController.h; sourceTree = SOURCE_ROOT; };
+		D3DA740418F424DF00028951 /* EGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGRootViewController.m; path = PirspEasyGet/EGRootViewController.m; sourceTree = SOURCE_ROOT; };
+		D3DA740518F424DF00028951 /* EGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGSettingViewController.h; path = PirspEasyGet/EGSettingViewController.h; sourceTree = SOURCE_ROOT; };
+		D3DA740618F424DF00028951 /* EGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGSettingViewController.m; path = PirspEasyGet/EGSettingViewController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C369FDD17F9708C0044FDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C369FE417F9708C0044FDDA /* UIKit.framework in Frameworks */,
+				1C369FE617F9708C0044FDDA /* Foundation.framework in Frameworks */,
+				1C369FE817F9708C0044FDDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C369FD717F9708C0044FDDA = {
+			isa = PBXGroup;
+			children = (
+				1C369FE917F9708C0044FDDA /* PirspEasyGet */,
+				1C369FE217F9708C0044FDDA /* Frameworks */,
+				1C369FE117F9708C0044FDDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C369FE117F9708C0044FDDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C369FE017F9708C0044FDDA /* PirspEasyGet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C369FE217F9708C0044FDDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C369FE317F9708C0044FDDA /* UIKit.framework */,
+				1C369FE517F9708C0044FDDA /* Foundation.framework */,
+				1C369FE717F9708C0044FDDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C369FE917F9708C0044FDDA /* PirspEasyGet */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA73FB18F424DF00028951 /* AppDelegate.h */,
+				D3DA73FC18F424DF00028951 /* AppDelegate.m */,
+				D3DA73FD18F424DF00028951 /* EGClassifyViewController.h */,
+				D3DA73FE18F424DF00028951 /* EGClassifyViewController.m */,
+				D3DA73FF18F424DF00028951 /* EGFriendViewController.h */,
+				D3DA740018F424DF00028951 /* EGFriendViewController.m */,
+				D3DA740118F424DF00028951 /* EGRecommendViewController.h */,
+				D3DA740218F424DF00028951 /* EGRecommendViewController.m */,
+				D3DA740318F424DF00028951 /* EGRootViewController.h */,
+				D3DA740418F424DF00028951 /* EGRootViewController.m */,
+				D3DA740518F424DF00028951 /* EGSettingViewController.h */,
+				D3DA740618F424DF00028951 /* EGSettingViewController.m */,
+				1C369FEA17F9708C0044FDDA /* Supporting Files */,
+			);
+			name = PirspEasyGet;
+			path = example;
+			sourceTree = "<group>";
+		};
+		1C369FEA17F9708C0044FDDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA73F818F424C900028951 /* InfoPlist.strings */,
+				D3DA73ED18F424AE00028951 /* Default-568h@2x.png */,
+				D3DA73EE18F424AE00028951 /* Default.png */,
+				D3DA73EF18F424AE00028951 /* Default@2x.png */,
+				D3DA73F018F424AE00028951 /* main.m */,
+				D3DA73F118F424AE00028951 /* PirspEasyGet-Info.plist */,
+				D3DA73F218F424AE00028951 /* PirspEasyGet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C369FDF17F9708C0044FDDA /* PirspEasyGet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C369FFD17F9708C0044FDDA /* Build configuration list for PBXNativeTarget "PirspEasyGet" */;
+			buildPhases = (
+				1C369FDC17F9708C0044FDDA /* Sources */,
+				1C369FDD17F9708C0044FDDA /* Frameworks */,
+				1C369FDE17F9708C0044FDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PirspEasyGet;
+			productName = example;
+			productReference = 1C369FE017F9708C0044FDDA /* PirspEasyGet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C369FD817F9708C0044FDDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = shoguncao;
+			};
+			buildConfigurationList = 1C369FDB17F9708C0044FDDA /* Build configuration list for PBXProject "PirspEasyGet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C369FD717F9708C0044FDDA;
+			productRefGroup = 1C369FE117F9708C0044FDDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C369FDF17F9708C0044FDDA /* PirspEasyGet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C369FDE17F9708C0044FDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DA73F518F424AE00028951 /* Default@2x.png in Resources */,
+				D3DA73F318F424AE00028951 /* Default-568h@2x.png in Resources */,
+				D3DA73F418F424AE00028951 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C369FDC17F9708C0044FDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DA740B18F424DF00028951 /* EGRootViewController.m in Sources */,
+				D3DA740818F424DF00028951 /* EGClassifyViewController.m in Sources */,
+				D3DA740718F424DF00028951 /* AppDelegate.m in Sources */,
+				D3DA740C18F424DF00028951 /* EGSettingViewController.m in Sources */,
+				D3DA740918F424DF00028951 /* EGFriendViewController.m in Sources */,
+				D3DA73F618F424AE00028951 /* main.m in Sources */,
+				D3DA740A18F424DF00028951 /* EGRecommendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3DA73F818F424C900028951 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DA73F918F424C900028951 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C369FFB17F9708C0044FDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C369FFC17F9708C0044FDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C369FFE17F9708C0044FDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PirspEasyGet/PirspEasyGet-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PirspEasyGet/PirspEasyGet-Info.plist";
+				PRODUCT_NAME = PirspEasyGet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C369FFF17F9708C0044FDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PirspEasyGet/PirspEasyGet-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PirspEasyGet/PirspEasyGet-Info.plist";
+				PRODUCT_NAME = PirspEasyGet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C369FDB17F9708C0044FDDA /* Build configuration list for PBXProject "PirspEasyGet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C369FFB17F9708C0044FDDA /* Debug */,
+				1C369FFC17F9708C0044FDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C369FFD17F9708C0044FDDA /* Build configuration list for PBXNativeTarget "PirspEasyGet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C369FFE17F9708C0044FDDA /* Debug */,
+				1C369FFF17F9708C0044FDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C369FD817F9708C0044FDDA /* Project object */;
+}
