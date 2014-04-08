@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  EGAppDelegate.h
 //  example
 //
 //  Created by shoguncao on 13-9-30.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface EGAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

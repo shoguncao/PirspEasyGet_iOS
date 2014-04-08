@@ -1,15 +1,15 @@
 //
-//  AppDelegate.m
+//  EGAppDelegate.m
 //  example
 //
 //  Created by shoguncao on 13-9-30.
 //  Copyright (c) 2013年 shoguncao. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "EGAppDelegate.h"
 #import "EGRootViewController.h"
 
-@implementation AppDelegate
+@implementation EGAppDelegate
 
 - (void)dealloc
 {
