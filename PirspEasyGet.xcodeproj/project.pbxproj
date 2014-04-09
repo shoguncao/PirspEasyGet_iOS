@@ -10,16 +10,16 @@
 		1C369FE417F9708C0044FDDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C369FE317F9708C0044FDDA /* UIKit.framework */; };
 		1C369FE617F9708C0044FDDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C369FE517F9708C0044FDDA /* Foundation.framework */; };
 		1C369FE817F9708C0044FDDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C369FE717F9708C0044FDDA /* CoreGraphics.framework */; };
+		D3791D6F18F4E79000317D22 /* EGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3791D5E18F4E71B00317D22 /* EGAppDelegate.m */; };
+		D3791D7018F4E79000317D22 /* EGClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3791D6118F4E72700317D22 /* EGClassifyViewController.m */; };
+		D3791D7118F4E79000317D22 /* EGFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3791D6318F4E72700317D22 /* EGFriendViewController.m */; };
+		D3791D7218F4E79000317D22 /* EGRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3791D6518F4E72700317D22 /* EGRecommendViewController.m */; };
+		D3791D7318F4E79000317D22 /* EGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3791D6718F4E72700317D22 /* EGRootViewController.m */; };
+		D3791D7418F4E79000317D22 /* EGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3791D6918F4E72700317D22 /* EGSettingViewController.m */; };
 		D3DA73F318F424AE00028951 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DA73ED18F424AE00028951 /* Default-568h@2x.png */; };
 		D3DA73F418F424AE00028951 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DA73EE18F424AE00028951 /* Default.png */; };
 		D3DA73F518F424AE00028951 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DA73EF18F424AE00028951 /* Default@2x.png */; };
 		D3DA73F618F424AE00028951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA73F018F424AE00028951 /* main.m */; };
-		D3DA740718F424DF00028951 /* EGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA73FC18F424DF00028951 /* EGAppDelegate.m */; };
-		D3DA740818F424DF00028951 /* EGClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA73FE18F424DF00028951 /* EGClassifyViewController.m */; };
-		D3DA740918F424DF00028951 /* EGFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740018F424DF00028951 /* EGFriendViewController.m */; };
-		D3DA740A18F424DF00028951 /* EGRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740218F424DF00028951 /* EGRecommendViewController.m */; };
-		D3DA740B18F424DF00028951 /* EGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740418F424DF00028951 /* EGRootViewController.m */; };
-		D3DA740C18F424DF00028951 /* EGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA740618F424DF00028951 /* EGSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +27,18 @@
 		1C369FE317F9708C0044FDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C369FE517F9708C0044FDDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C369FE717F9708C0044FDDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3791D5D18F4E71B00317D22 /* EGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGAppDelegate.h; path = PirspEasyGet/Classes/AppDelegate/EGAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D3791D5E18F4E71B00317D22 /* EGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGAppDelegate.m; path = PirspEasyGet/Classes/AppDelegate/EGAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D3791D6018F4E72700317D22 /* EGClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGClassifyViewController.h; path = PirspEasyGet/Classes/ui/EGClassifyViewController.h; sourceTree = SOURCE_ROOT; };
+		D3791D6118F4E72700317D22 /* EGClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGClassifyViewController.m; path = PirspEasyGet/Classes/ui/EGClassifyViewController.m; sourceTree = SOURCE_ROOT; };
+		D3791D6218F4E72700317D22 /* EGFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGFriendViewController.h; path = PirspEasyGet/Classes/ui/EGFriendViewController.h; sourceTree = SOURCE_ROOT; };
+		D3791D6318F4E72700317D22 /* EGFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGFriendViewController.m; path = PirspEasyGet/Classes/ui/EGFriendViewController.m; sourceTree = SOURCE_ROOT; };
+		D3791D6418F4E72700317D22 /* EGRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGRecommendViewController.h; path = PirspEasyGet/Classes/ui/EGRecommendViewController.h; sourceTree = SOURCE_ROOT; };
+		D3791D6518F4E72700317D22 /* EGRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGRecommendViewController.m; path = PirspEasyGet/Classes/ui/EGRecommendViewController.m; sourceTree = SOURCE_ROOT; };
+		D3791D6618F4E72700317D22 /* EGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGRootViewController.h; path = PirspEasyGet/Classes/ui/EGRootViewController.h; sourceTree = SOURCE_ROOT; };
+		D3791D6718F4E72700317D22 /* EGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGRootViewController.m; path = PirspEasyGet/Classes/ui/EGRootViewController.m; sourceTree = SOURCE_ROOT; };
+		D3791D6818F4E72700317D22 /* EGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGSettingViewController.h; path = PirspEasyGet/Classes/ui/EGSettingViewController.h; sourceTree = SOURCE_ROOT; };
+		D3791D6918F4E72700317D22 /* EGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGSettingViewController.m; path = PirspEasyGet/Classes/ui/EGSettingViewController.m; sourceTree = SOURCE_ROOT; };
 		D3DA73ED18F424AE00028951 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "PirspEasyGet/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		D3DA73EE18F424AE00028951 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = PirspEasyGet/Default.png; sourceTree = SOURCE_ROOT; };
 		D3DA73EF18F424AE00028951 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "PirspEasyGet/Default@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -34,18 +46,6 @@
 		D3DA73F118F424AE00028951 /* PirspEasyGet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PirspEasyGet-Info.plist"; path = "PirspEasyGet/PirspEasyGet-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D3DA73F218F424AE00028951 /* PirspEasyGet-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PirspEasyGet-Prefix.pch"; path = "PirspEasyGet/PirspEasyGet-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		D3DA73F918F424C900028951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = PirspEasyGet/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		D3DA73FB18F424DF00028951 /* EGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGAppDelegate.h; path = PirspEasyGet/EGAppDelegate.h; sourceTree = SOURCE_ROOT; };
-		D3DA73FC18F424DF00028951 /* EGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGAppDelegate.m; path = PirspEasyGet/EGAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		D3DA73FD18F424DF00028951 /* EGClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGClassifyViewController.h; path = PirspEasyGet/EGClassifyViewController.h; sourceTree = SOURCE_ROOT; };
-		D3DA73FE18F424DF00028951 /* EGClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGClassifyViewController.m; path = PirspEasyGet/EGClassifyViewController.m; sourceTree = SOURCE_ROOT; };
-		D3DA73FF18F424DF00028951 /* EGFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGFriendViewController.h; path = PirspEasyGet/EGFriendViewController.h; sourceTree = SOURCE_ROOT; };
-		D3DA740018F424DF00028951 /* EGFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGFriendViewController.m; path = PirspEasyGet/EGFriendViewController.m; sourceTree = SOURCE_ROOT; };
-		D3DA740118F424DF00028951 /* EGRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGRecommendViewController.h; path = PirspEasyGet/EGRecommendViewController.h; sourceTree = SOURCE_ROOT; };
-		D3DA740218F424DF00028951 /* EGRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGRecommendViewController.m; path = PirspEasyGet/EGRecommendViewController.m; sourceTree = SOURCE_ROOT; };
-		D3DA740318F424DF00028951 /* EGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGRootViewController.h; path = PirspEasyGet/EGRootViewController.h; sourceTree = SOURCE_ROOT; };
-		D3DA740418F424DF00028951 /* EGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGRootViewController.m; path = PirspEasyGet/EGRootViewController.m; sourceTree = SOURCE_ROOT; };
-		D3DA740518F424DF00028951 /* EGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGSettingViewController.h; path = PirspEasyGet/EGSettingViewController.h; sourceTree = SOURCE_ROOT; };
-		D3DA740618F424DF00028951 /* EGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGSettingViewController.m; path = PirspEasyGet/EGSettingViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,18 +92,8 @@
 		1C369FE917F9708C0044FDDA /* PirspEasyGet */ = {
 			isa = PBXGroup;
 			children = (
-				D3DA73FB18F424DF00028951 /* EGAppDelegate.h */,
-				D3DA73FC18F424DF00028951 /* EGAppDelegate.m */,
-				D3DA73FD18F424DF00028951 /* EGClassifyViewController.h */,
-				D3DA73FE18F424DF00028951 /* EGClassifyViewController.m */,
-				D3DA73FF18F424DF00028951 /* EGFriendViewController.h */,
-				D3DA740018F424DF00028951 /* EGFriendViewController.m */,
-				D3DA740118F424DF00028951 /* EGRecommendViewController.h */,
-				D3DA740218F424DF00028951 /* EGRecommendViewController.m */,
-				D3DA740318F424DF00028951 /* EGRootViewController.h */,
-				D3DA740418F424DF00028951 /* EGRootViewController.m */,
-				D3DA740518F424DF00028951 /* EGSettingViewController.h */,
-				D3DA740618F424DF00028951 /* EGSettingViewController.m */,
+				D3791D5B18F4E6EE00317D22 /* AppDelegate */,
+				D3791D5C18F4E70900317D22 /* ui */,
 				1C369FEA17F9708C0044FDDA /* Supporting Files */,
 			);
 			name = PirspEasyGet;
@@ -122,6 +112,32 @@
 				D3DA73F218F424AE00028951 /* PirspEasyGet-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3791D5B18F4E6EE00317D22 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D3791D5D18F4E71B00317D22 /* EGAppDelegate.h */,
+				D3791D5E18F4E71B00317D22 /* EGAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D3791D5C18F4E70900317D22 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				D3791D6018F4E72700317D22 /* EGClassifyViewController.h */,
+				D3791D6118F4E72700317D22 /* EGClassifyViewController.m */,
+				D3791D6218F4E72700317D22 /* EGFriendViewController.h */,
+				D3791D6318F4E72700317D22 /* EGFriendViewController.m */,
+				D3791D6418F4E72700317D22 /* EGRecommendViewController.h */,
+				D3791D6518F4E72700317D22 /* EGRecommendViewController.m */,
+				D3791D6618F4E72700317D22 /* EGRootViewController.h */,
+				D3791D6718F4E72700317D22 /* EGRootViewController.m */,
+				D3791D6818F4E72700317D22 /* EGSettingViewController.h */,
+				D3791D6918F4E72700317D22 /* EGSettingViewController.m */,
+			);
+			name = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,13 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DA740B18F424DF00028951 /* EGRootViewController.m in Sources */,
-				D3DA740818F424DF00028951 /* EGClassifyViewController.m in Sources */,
-				D3DA740718F424DF00028951 /* EGAppDelegate.m in Sources */,
-				D3DA740C18F424DF00028951 /* EGSettingViewController.m in Sources */,
-				D3DA740918F424DF00028951 /* EGFriendViewController.m in Sources */,
+				D3791D6F18F4E79000317D22 /* EGAppDelegate.m in Sources */,
+				D3791D7018F4E79000317D22 /* EGClassifyViewController.m in Sources */,
+				D3791D7118F4E79000317D22 /* EGFriendViewController.m in Sources */,
+				D3791D7218F4E79000317D22 /* EGRecommendViewController.m in Sources */,
+				D3791D7318F4E79000317D22 /* EGRootViewController.m in Sources */,
+				D3791D7418F4E79000317D22 /* EGSettingViewController.m in Sources */,
 				D3DA73F618F424AE00028951 /* main.m in Sources */,
-				D3DA740A18F424DF00028951 /* EGRecommendViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

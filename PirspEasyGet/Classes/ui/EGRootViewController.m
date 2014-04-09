@@ -52,15 +52,16 @@
     UINavigationController *classifyNav = [[[UINavigationController alloc] initWithRootViewController:classifyVC] autorelease];
     classifyNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"分类" image:nil selectedImage:nil];
     
-    EGFriendViewController *friendVC = [[[EGFriendViewController alloc] init] autorelease];
-    UINavigationController *friendNav = [[[UINavigationController alloc] initWithRootViewController:friendVC] autorelease];
-    friendNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"好友" image:nil selectedImage:nil];
+    // 第一期先不做好友，后面看情况加上
+//    EGFriendViewController *friendVC = [[[EGFriendViewController alloc] init] autorelease];
+//    UINavigationController *friendNav = [[[UINavigationController alloc] initWithRootViewController:friendVC] autorelease];
+//    friendNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"好友" image:nil selectedImage:nil];
     
     EGSettingViewController *settingVC = [[[EGSettingViewController alloc] init] autorelease];
     UINavigationController *settingNav = [[[UINavigationController alloc] initWithRootViewController:settingVC] autorelease];
     settingNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"设置" image:nil selectedImage:nil];
     
-    NSArray *vcArr = [NSArray arrayWithObjects:recommendNav, classifyNav, friendNav, settingNav, nil];
+    NSArray *vcArr = [NSArray arrayWithObjects:recommendNav, classifyNav/*, friendNav*/, settingNav, nil];
     [self setViewControllers:vcArr];
 }
 
